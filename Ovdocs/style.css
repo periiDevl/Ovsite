@@ -1,0 +1,152 @@
+
+body {
+  /*background-image: url("epicgrupphotocolor.png");*/
+  background-color: white;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center; 
+  background-attachment: fixed; 
+  overflow-x: hidden;
+  height: 100vh; 
+}
+
+
+
+#logo {
+  user-select: none;
+  position: absolute;
+  left: 3vw;
+  top: -6.0vw;
+  z-index: -10;
+  width: 52vw;
+  height: auto;
+  /*box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.5);*/
+  border-radius: 1.2vw;
+}
+
+#Ill {
+  pointer-events: none;
+  user-select: none;
+  position: absolute;
+  left: 28vw;
+  top: 5.5vw;
+  z-index: -14;
+  width: 75vw;
+  height: auto;
+}
+.box {
+  position: absolute;
+  left: 2vw;
+  top: 4.0vw;
+  width: 55vw; 
+  height: 25vw; 
+  background-color: rgb(52, 51, 63);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -12;
+}
+
+.desc {
+  user-select: none;
+  position: relative;
+  font-family: CustomFont;
+  color: rgba(255, 255, 255, 0.199);
+  position: absolute;
+  top: 13.5vw;
+  width: 40vw;
+  left: 4vw;
+  font-size: 1vw;
+  
+}
+
+.offer {
+  user-select: none;
+  position: relative;
+  font-family: CustomFont;
+  color: rgba(255, 255, 255, 0.507);
+  position: absolute;
+  top: 18.5vw;
+  left: 4vw;
+  font-size: 1.2vw;
+  
+}
+
+#arrow {
+  pointer-events: none;
+  user-select: none;
+  position: absolute;
+  left: 3.5vw;
+  top: 21.0vw;
+  z-index: -10;
+  width: 3vw;
+  height: auto;
+  
+}
+.steam {
+  cursor: pointer;
+  position: absolute;
+  outline: none;
+  border: none;
+  
+  background-image: url("icone-steam-grise.png");
+  left: 57.5vw;
+  top: 9.0vw;
+  width: 5vw; 
+  height: 5vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  border-radius: 100%;
+  
+  transition: transform 0.2s ease;
+}
+.steam:hover {
+  transform: scale(1.1);
+}
+
+.itch {
+  cursor: pointer;
+  position: absolute;
+  outline: none;
+  border: none;
+
+  background-image: url("itch-io_1.png");
+  left: 63vw;
+  top: 9.0vw;
+  width: 5vw; 
+  height: 5vw; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  border-radius: 100%;
+  transition: transform 0.2s ease;
+}
+.itch:hover {
+  transform: scale(1.1);
+}
+
+.twiter {
+  cursor: pointer;
+  position: absolute;
+  outline: none;
+  border: none;
+
+  background-image: url("twitter-x-logo-0339F999CF-seeklogo.com.png");
+  left: 68.5vw;
+  top: 9.0vw;
+  width: 5vw; 
+  height: 5vw; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  border-radius: 100%;
+  transition: transform 0.2s ease;
+}
+.twiter:hover {
+  transform: scale(1.1);
+}
+
